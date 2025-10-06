@@ -1,10 +1,11 @@
 SpotifyTrackAnalysis
+
 "Spotify Track Analysis EDA Project"
 
-Overview
+Overview:
 This project conducts an Exploratory Data Analysis (EDA) on a large Spotify Tracks dataset containing diverse audio features such as danceability, energy, loudness, valence, and tempo. The analysis aims to reveal how these musical characteristics impact a song’s popularity and extract meaningful trends from the data.
 
-Objectives
+Objectives:
 Analyze the Spotify dataset to uncover key audio features driving song popularity.
 
 Understand patterns and relationships between musical attributes and listener engagement.
@@ -12,7 +13,7 @@ Understand patterns and relationships between musical attributes and listener en
 Provide insights to help improve music recommendations and content strategies.
 
 
-Team Members
+Team Members:-
 
 Nilanjana Saren
 
@@ -33,6 +34,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+
 2. Import All the Necessary Datasets
 Load all Spotify-related CSV files (tracks, features, or metadata) into pandas DataFrames.
 
