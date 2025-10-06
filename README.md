@@ -10,7 +10,10 @@ Analyze the Spotify dataset to uncover key audio features driving song popularit
 Understand patterns and relationships between musical attributes and listener engagement.
 
 Provide insights to help improve music recommendations and content strategies.
+
+
 Team Members
+
 Nilanjana Saren
 
 Anshika Pandey
@@ -18,6 +21,7 @@ Anshika Pandey
 Dipanjan Halder
 
 Ekadashi Sardar
+
 
 1. Importing Required Libraries
 Use libraries such as pandas (data manipulation), numpy (numerical computation), matplotlib and seaborn (visualizations).
@@ -41,6 +45,8 @@ df_tracks = pd.read_csv('tracks.csv')
 df_features = pd.read_csv('features.csv')
 print(df_tracks.shape)
 print(df_features.head())
+
+
 3. Visualizing & Summarizing the Dataset
 Display the first few rows: df.head()
 
